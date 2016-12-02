@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--自定义的内容区-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_content"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#fff"
+    android:gravity="center_vertical"
+    >
+    <com.nizma.utils.RoundImageView
+        android:id="@+id/roundRectImageView"
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:src="@drawable/tou"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:text="New Text"
+                    android:id="@+id/studentname"
+                    android:textColor="#868686"
+                    android:textSize="12sp"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/Authority"
+                    android:layout_width="35dp"
+                    android:layout_height="15dp"
+                    android:text=""
+                    android:textSize="9sp"
+                    android:gravity="center"
+                    android:layout_marginLeft="8dp"
+
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingTop="2dp">
+
+                <TextView
+                    android:id="@+id/studentid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="学号：1404201001"
+                    android:gravity="top|left"
+                    android:textSize="12sp"
+                    android:textColor="#bcbcbc"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|center_vertical"
+            android:layout_marginRight="13dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/show_state_image"
+                 />
+            <TextView
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="10sp"
+                android:id="@+id/show_state_text" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

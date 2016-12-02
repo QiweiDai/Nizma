@@ -1,0 +1,131 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nizma.sign.DormitoryFragment"
+    android:background="#f7f7f7">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="#fff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="没有获取到寝室"
+                android:id="@+id/dormitory_id"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="#bcbcbc"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:id="@+id/dormitory_zhui"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="#3ed89b"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="人；假"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="#bcbcbc"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/dormitory_jia"
+                android:text="0"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="#33b3ff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="人；失联"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="#bcbcbc"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/dormitory_shi"
+                android:text="0"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="#ff3366"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="人"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="#bcbcbc"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="2dp"
+            android:background="#fff">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="折叠准勤学生名单"
+                android:textColor="#8f8f8f"
+                android:layout_marginLeft="5dp"
+                android:textSize="12sp"
+                android:id="@+id/dorm_hide_zhui" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="7"
+            android:background="#fff">
+
+            <ListView
+                android:id="@+id/dormitory_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/button_shape"
+                android:text="提交"
+                android:id="@+id/dorcheck_button"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="30dp"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

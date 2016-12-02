@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#33b3ff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="leavebgcolor">#FFF2FBFF</color>
+    <color name="latebgcolor">#FFFFFAE6</color>
+    <color name="truancybgcolor">#FFFFECF1</color>
+    <color name="yuancolor">#FF00AAEE</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

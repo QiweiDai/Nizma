@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nizma.www.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#00AAEE">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                com.nizma.utils.RoundImageView
+                    android:id="@+id/touxiang"
+                    android:layout_width="40dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/tou"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="15dp"
+                    />
+                <android.support.v7.widget.Toolbar
+                    android:layout_width="40dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/toolbar"
+                    ></android.support.v7.widget.Toolbar>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical">
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="上课考勤"
+                    android:id="@+id/topleft_text"
+                    android:textColor="#fff"
+                    android:textSize="11sp"
+                    android:gravity="center|center_vertical"
+                    android:background="@drawable/topleft_text_up_shape"/>
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="寝室考勤"
+                    android:textColor="#FFF"
+                    android:id="@+id/topright_text"
+                    android:textSize="11sp"
+                    android:gravity="center|center_vertical"
+                    android:background="@drawable/topright_text_up_shape"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right">
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/index"
+                    android:text="首页"
+                    android:textSize="11sp"
+                    android:background="@color/yuancolor"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+
+            <FrameLayout
+                android:id="@+id/main_frame_layout"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+            </FrameLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--android:src="@android:drawable/ic_dialog_email" />-->
+
+</RelativeLayout>

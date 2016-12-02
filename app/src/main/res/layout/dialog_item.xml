@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/classText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|center_vertical"
+        android:text="班级"
+        android:textColor="#bcbcbc"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/snoText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|center_vertical"
+        android:text="学号"
+        android:textColor="#bcbcbc"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/courseNameText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|center_vertical"
+        android:text="课程"
+        android:textColor="#bcbcbc"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/teacherNameText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|center_vertical"
+        android:text="教师"
+        android:textColor="#bcbcbc"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|center_vertical"
+        android:text="时间"
+        android:textColor="#bcbcbc"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/sectionText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|center_vertical"
+        android:text="节次"
+        android:textColor="#bcbcbc"
+        android:textSize="12sp" />
+</LinearLayout>
